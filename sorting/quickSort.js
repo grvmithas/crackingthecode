@@ -1,5 +1,11 @@
 let arr = [10,80,30,90,40,50,70,45,62,86,79]
 
+/**
+ * 
+ * @param {*} arr array to sortt
+ * @param {*} l left index
+ * @param {*} r right index
+ */
 function quickSort(arr=[],low=0,high=0){
     if(low<high){
         //index low < index high
